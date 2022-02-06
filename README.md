@@ -1,3 +1,4 @@
+# Week1
 1. Syllabus
 2. Attendance, quizes, lab works
 3. Assignments in teams (show how to submit laboratory works)
