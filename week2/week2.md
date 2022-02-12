@@ -270,6 +270,34 @@ for i in a:
 
 ```
 
+#### example
+```python
+set1 = set()
+set1.add(1)
+set1.add(2)
+set1.add(3)
+
+try:
+    set1.remove(10)
+except Exception as arg:
+    print("Error", str(arg))
+print("hello world")
+# set1.discard(10)
+
+print(set1)
+```
+```python
+set1 = set([1, 2, 3, 5])
+set2 = set([2, 3, 4])
+set3 = set([3, 4, 5])
+# print(set1.union(set2, set3))
+# print(set1.union([10, 11, 12, 11]))
+# print(set1.intersection(set2, set3))
+# print(set1.difference(set2))
+print(set1 - set2 - set3)
+```
+
+
 ## dict
 #### example 21
 ```python
